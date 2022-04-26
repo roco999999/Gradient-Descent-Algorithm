@@ -118,24 +118,6 @@ plt.show()
 
 
 
-#%%
-
-liste = []
-
-def sing(num_bottles):
-    #TODO: Add your code to achieve the desired output and pass the challenge. 
-    #NOTE: The f String method of String Interpolation does not work. 
-    liste = []
-    for i in range(num_bottles,0,-1):
-        liste.append("'{} bottles of beer on the wall, {} bottles of beer.'".format(i,i))
-        liste.append("'Take one down and pass it around, {} bottles of beer on the wall.'".format(i-1))
-        liste.append("''")
-    
-    for i in range(len(liste)):
-        print(liste[i])
-    
-sing(99)
-
 
 
 
